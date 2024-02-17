@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.head-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 10px;
+    background-color: #fa8072;
+}
+
+div {
+    margin: 5px;
+    padding: 10px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.img {
+    width: 70px;
+    height: 60px;
+    margin-top: 6px;
+}
+
+.body-cont {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #aedd50, #ffd966, #ffe599, #cdd2b4);
+    background-size: cover;
+    padding: 0px;
+}
+
+.img-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.body-text-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5px;
+    padding: 15px;
+}
+
+.butn {
+    background-color: #fa8072;
+    width: 150px;
+    height: 40px;
+    color: white;
+}
+
+.foot-cont {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #aedd50, #ffd966, #ffe599, #cdd2b4);
+    background-size: cover;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.img-2 {
+    width: 350px;
+    height: 260px;
+    margin: 2px;
+}
+
+.img-3 {
+    width: 350px;
+    height: auto;
+    margin-left: 1px;
+}
+
+.foot-text-cont {
+    background-color: #fa8072;
+    width: 50%;
+    height: 50%;
+    align-self: center;
+}
+
+.img-cont {
+    display: flex;
+}
+
+.img-click {
+    width: 40px;
+    margin-left: 3px;
+}
+
+.click-cont {
+    display: flex;
+}
+
+@media (max-width:578px) {
+    .img-2 {
+        width: 100px;
+        height: 150px;
+        margin: 2px;
+    }
+
+    .img-3 {
+        width: 100px;
+        height: 88%;
+    }
+
+    .foot-text-cont {
+        background-color: #fa8072;
+        width: 50%;
+        height: 40%;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width: 768px) {
+    .img-2 {
+        width: 200px;
+        height: 150;
+        margin: 2px;
+    }
+
+    .img-3 {
+        width: 200px;
+        height: 99%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 992px) {
+    .img-2 {
+        width: 270px;
+        height: auto;
+        margin: 2px;
+    }
+
+    .img-3 {
+        width: 350px;
+        height: 100%;
+    }
+}
